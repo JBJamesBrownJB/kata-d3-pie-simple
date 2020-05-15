@@ -1,0 +1,6 @@
+path.slice:hover {
+    stroke-width: 2px;
+    stroke: yellow;
+    transition: cubic-bezier(0.1, -0.28, 0.135, 0.045);
+    transition-duration: 100ms;
+}
