@@ -19,5 +19,4 @@ function renderViz() {
         .append("path").attr("class", "slice").attr("id", (d, i) => "slice" + i)
         .attr("d", d => arcGen(d))
         .style("fill", (d, i) => colorRamp(i))
-        .on("click", (d, i) => takeSlice("slice" + i))
 }
